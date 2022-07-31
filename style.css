@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-wrapper{
+    background-color: rgb(80, 131, 4);
+    padding: 1.5%;
+    margin-bottom: 1vh;
+}
+
+.title{
+    color: #FFF;
+    font-size: 2.3em;
+}
+
+.sub-title-wrapper{
+    background-color: rgb(252, 115, 65);
+    padding: 0.5% 1.5%;
+}
+
+.sub-title{
+    font-size: 1.4em;
+    color: #FFF;
+}
+
+.total .sub-title{
+    font-size: 1.5em;
+}
+
+.total{
+    padding: 0.5% 1.5%;
+    width: 25%;
+    background-color: rgb(80, 131, 4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.value-wrapper{
+    margin-top: 1vh;
+    width: 40%;
+    background-color: rgb(239, 244, 248);
+    align-self: flex-end;
+    display: flex;
+}
+
+.price-wrapper .sub-title{
+    color: #000;
+}
+
+.price-wrapper{
+    padding: 0.5% 1.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0.1rem solid rgb(221, 210, 210);
+}
+
+.product-list, .my-list{
+    list-style: none;
+    background-color: rgb(247, 242, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin-top: 0.3vh;
+    margin-bottom: 0.4vh;
+    padding: 0.5% 1.5%;
+    background-color: #FFF;
+    width: 99.5%;
+    font-size: 1em;
+}
+
+.ProductsListItems{
+    cursor: pointer;
+}
+
+.ProductsListItems:hover{
+    background-color: rgb(247, 242, 234);
+}
